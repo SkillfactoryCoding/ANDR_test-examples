@@ -23,6 +23,8 @@ class MainActivity : AppCompatActivity() {
 
         viewModel.liveData.observe(this) {
             binding.button.text = it
+            binding.button.text = it
+            binding.button.text = it
         }
     }
 }
